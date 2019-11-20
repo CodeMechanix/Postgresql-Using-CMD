@@ -1,2 +1,4 @@
-# Postgresql-Using-CMD
-List of Command for Postgresql. Database handle using CMD.
+| Command | Description |
+| --- | --- |
+| psql -U postgres -h localhost | Connect with Postgresql Database |
+|
