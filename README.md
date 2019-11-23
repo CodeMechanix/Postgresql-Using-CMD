@@ -11,5 +11,6 @@
 |\d tablename|Show table structure|
 |\h|See Command List|
 |truncate table restart identity|Truncate Table with ID|
-|C:\Program files\Postgresql\10\bin | Initially Locate Directory | 
+|C:\Program files\Postgresql\10\bin | Initially Locate Directory(DB Export) | 
 |pg_dump -U postgres dbname > D:\backup.sql |Export Database|
+
