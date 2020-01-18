@@ -10,7 +10,7 @@
 |Show All table|\dt|
 |Show table structure|\d tablename|
 |See Command List|\h|
-|Truncate Table with ID|truncate table restart identity|
+|Truncate Table with ID|truncate table restart identity| 
 |Initially Locate Directory(DB Export)|C:\Program files\Postgresql\10\bin|
 | Export Database| pg_dump/psql -U postgres dbname > Location[D:\backup.sql] | 
 | Import Database|pg_dump/psql -U postgres dbname < Location[D:\backup.sql]|
