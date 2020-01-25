@@ -12,7 +12,7 @@
 |See Command List|\h|
 |Truncate Table with ID|truncate table restart identity or TRUNCATE "products" RESTART IDENTITY CASCADE;|
 |Initially Locate Directory(DB Export)|C:\Program files\Postgresql\10\bin|
-| Export Database| pg_dump -U postgres dbname > Location[D:\backup.sql] | 
-| Import Database|pg_dump -U postgres dbname < Location[D:\backup.sql]|
+| Export Database| pg_dump/psql -U postgres dbname > Location[D:\backup.sql] | 
+| Import Database|pg_dump/psql -U postgres dbname < Location[D:\backup.sql]|
 
 
