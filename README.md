@@ -14,5 +14,6 @@
 |Initially Locate Directory(DB Export)|C:\Program files\Postgresql\10\bin|
 | Export Database| pg_dump/psql -U postgres dbname > Location[D:\backup.sql] | 
 | Import Database|pg_dump/psql -U postgres dbname < Location[D:\backup.sql]|
+|Linux/Ubuntu Import database|psql -h hostname -d databasename -U username -f file.sql|
 
 
