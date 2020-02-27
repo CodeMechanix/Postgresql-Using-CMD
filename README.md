@@ -1,4 +1,4 @@
-| Description | Command |
+| Description | Windows Command |
 | --- | --- |
 |Connect with Postgresql Database|psql -U username[postgres] -h localhost dbname |
 | Create Database| create database mydb; |
@@ -14,10 +14,14 @@
 |Initially Locate Directory(DB Export)|C:\Program files\Postgresql\10\bin|
 | Export Database| pg_dump/psql -U postgres dbname > Location[D:\backup.sql] | 
 | Import Database|pg_dump/psql -U postgres dbname < Location[D:\backup.sql]|
-|Linux/Ubuntu Import database|psql -h hostname -d databasename -U username -f file.sql|
-|Linux/Ubuntu Postgresql Install|sudo apt-get install build-dep python-psycopg2 and pip install psycopg2|
+
+| Description | Linux Command |
+| --- | --- |
+|Linux Import database|psql -h hostname -d databasename -U username -f file.sql|
+|Linux Export database|pg_dump -h localhost -U postgres dbname > filename.sql|
+|Linux Postgresql Install|sudo apt-get install build-dep python-psycopg2 and pip install psycopg2|
 |Modify Users Password in Postgresql|ALTER USER user_name WITH PASSWORD 'new_password'
-|Linux/Ubuntu Export database|psql -h hostname(localhost) -d databasename -U username(postgres) > filename.sql|
+
 
 
 
