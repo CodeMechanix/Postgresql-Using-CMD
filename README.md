@@ -17,9 +17,9 @@
 
 | Description | Linux Command |
 | --- | --- |
+|Linux Postgresql Install|sudo apt-get install build-dep python-psycopg2 and pip install psycopg2|
 |Linux Import database|psql -h hostname -d databasename -U username -f file.sql|
 |Linux Export database|pg_dump -h localhost -U postgres dbname > filename.sql|
-|Linux Postgresql Install|sudo apt-get install build-dep python-psycopg2 and pip install psycopg2|
 |Modify Users Password in Postgresql|ALTER USER user_name WITH PASSWORD 'new_password'
 
 
