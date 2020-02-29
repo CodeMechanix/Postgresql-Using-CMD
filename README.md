@@ -23,6 +23,10 @@
 |Linux Export database|pg_dump -h localhost -U postgres dbname > filename.sql|
 |Modify Users Password in Postgresql|ALTER USER user_name WITH PASSWORD 'new_password'
 
+| Common | Linux Command |
+| --- | --- |
+| Start Postgresql Service when computer boot | update-rc.d postgresql enable |
+| Restart Service | service postgresql start |
 
 
 
